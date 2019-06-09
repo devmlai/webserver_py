@@ -14,7 +14,7 @@ Handler = http.server.SimpleHTTPRequestHandler
 Handler.extensions_map={
 
 			'.manifest': 'text/cache-manifest',
-			'.mp3': 'audio/mp4', # serve MP# MIME
+			'.mp3': 'audio/mp4', # serve MP3 MIME
 			'.jpg': 'image/jpg', #
 			'.mp4': 'video/mp4', # serve Video Content
 			'.css': 'text/css',
