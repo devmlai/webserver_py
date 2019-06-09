@@ -21,3 +21,5 @@ Handler.extensions_map={
 			'.js': 'application/x-javascript',
 			'': 'aplication/octet-stream', #Default
 }
+#invoke server with parameters to handle MIME and Ports exposure.
+httpd = socketserver.TCPServer(("", PORT), Handler)
